@@ -1,0 +1,106 @@
+body {
+  font: 100%/1.625 system-ui, sans-serif;
+  margin: 1.25rem auto;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 40rem) {
+  body {
+    font-size: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.message {
+  font-style: italics;
+  padding: 0.75rem;
+  background-color: rgba(255, 200, 0, 0.15);
+  margin: 1rem 0;
+  border: 2px solid rgb(255, 200, 0);
+  border-radius: 2px;
+}
+
+.box {
+  max-width: 40rem;
+  padding: 1.25rem 1rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+pre,
+code {
+  display: block;
+  padding: 1rem;
+
+  overflow-x: auto;
+  background-color: #f8f8f8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  line-height: 1.25;
+  //margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration-skip-ink: auto;
+  text-decoration: underline;
+}
+
+nav ul {
+  font-variant: all-small-caps;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    border-bottom: 1px solid #000;
+    padding-bottom: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    position: absolute;
+    top: 1.5rem;
+    right: 50%;
+    margin-right: 340px !important;
+  }
+}
